@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{657720C3-596B-40B7-8FCE-E3E618484238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiBinding", "ApiBinding\ApiBinding.csproj", "{AB43E51E-902A-4D42-BD7F-F01654D34FFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{657720C3-596B-40B7-8FCE-E3E618484238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657720C3-596B-40B7-8FCE-E3E618484238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657720C3-596B-40B7-8FCE-E3E618484238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657720C3-596B-40B7-8FCE-E3E618484238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB43E51E-902A-4D42-BD7F-F01654D34FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB43E51E-902A-4D42-BD7F-F01654D34FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB43E51E-902A-4D42-BD7F-F01654D34FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB43E51E-902A-4D42-BD7F-F01654D34FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+    <LinearLayout
+        android:id="@+id/amount_container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Amount"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="0dp" />
+        <EditText
+            android:id="@+id/editText_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:inputType="number"
+            android:text="100"
+            android:width="0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/currency_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Currency"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="0dp" />
+        <RadioGroup
+            android:id="@+id/currency_radiogroup"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/curreny_eur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EUR"
+                android:checked="true" />
+            <RadioButton
+                android:id="@+id/curreny_gbp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GBP" />
+            <RadioButton
+                android:id="@+id/curreny_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLN" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/description_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount_container"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Description"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="0dp" />
+        <EditText
+            android:id="@+id/editText_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:inputType="text"
+            android:text="api example"
+            android:width="0dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_start_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="START PAYMENT"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp" />
+</LinearLayout>
